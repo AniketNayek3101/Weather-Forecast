@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-image: url("./Images/bg.jpg");
@@ -8,9 +8,11 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
-.container{
+.container {
     background: #000000d0;
     color: azure;
     padding: 1em;
@@ -18,11 +20,61 @@ body{
     margin: 1em;
     width: 100%;
     max-width: 420px;
-    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.location{
+.location {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.searchimg {
+    margin: 7px;
+    height: 10px;
+}
+
+/* Inline #3 | http://127.0.0.1:5500/index.html */
+
+.searchbox {
+    border-radius: 10%;
+}
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.search-box {
+    border-radius: 16px;
+    width: 50%;
+    height: 25px;
+}
+
+
+/* Element | http://127.0.0.1:5500/ */
+
+.searchimg>img:nth-child(1) {
+    height: 21px;
+    border-radius: 10px;
+}
+
+/* style.css | http://127.0.0.1:5500/style.css?_cacheOverride=1640753526196 */
+
+.searchimg {
+    /* height: 10px; */
+    height: 28px;
+    border-radius: 15px;
+}
+
+
+/* Element | http://127.0.0.1:5500/ */
+
+.temp {
+    margin: 0;
+}
+
+/* Element | http://127.0.0.1:5500/ */
+
+.city {
+    margin: 0;
+    margin-top: 11px;
 }
