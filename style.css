@@ -86,10 +86,10 @@ button:hover{
 .combo{
     display: flex;
 }
-.icon{
+/*.icon{
     height: 30px;
     width: 30px;
-}
+}*/
 .loader-wrapper {
     width: 100%;
     height: 100%;
