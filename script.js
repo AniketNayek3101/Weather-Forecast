@@ -1,5 +1,3 @@
-
-
 function getData()
 {
     city = document.querySelector(".search-box").value;
@@ -27,6 +25,8 @@ function getData()
 
 document.querySelector(".searchimg").addEventListener("click", function () {
     getData();
+    document.querySelector(".search-box").value = "";
+
 })
 
 document
@@ -34,5 +34,7 @@ document
   .addEventListener("keyup", function (event) {
     if (event.key == "Enter") {
       getData();
+      document.querySelector(".search-box").value = "";
+
     }
   });
